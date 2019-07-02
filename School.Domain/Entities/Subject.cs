@@ -23,7 +23,7 @@ namespace School.Domain.Entities
             AddNotifications(
             new Contract()
                 .Requires()
-                .IsNotNullOrEmpty(Description, "Descrição", "")
+                .IsNotNullOrEmpty(Description, "Descrição", " ")
             );
             AddNotifications(TeacherResponsible.Notifications);
 
