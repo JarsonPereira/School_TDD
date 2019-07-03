@@ -5,7 +5,4 @@ env:
     SOLUTION: .\School.ConsoleApp\School.ConsoleApp.csproj
     PACKAGE_DIRECTORY: .\packages
 
-artifacts:
-  files:
 
-  discard-paths: yes
